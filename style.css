@@ -1,0 +1,217 @@
+* {
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.search-box {
+  background-color: #eaeaea;
+  padding:.5em;
+}
+
+.search {
+  background-color: #eaeaea;
+  border: 0px
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem;
+}
+nav div{
+  display: flex;
+  align-items: center;
+}
+.brand{
+  width: 5rem;
+}
+nav img {
+}
+
+/*HERO*/
+
+.hero {
+  height: 25rem;
+  width: 100%;
+  background-color: #F7F7F7;
+}
+
+.catop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.catop div {
+  padding: 1rem;
+}
+
+.catop a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #707070;
+}
+
+#active {
+  color: #000000;
+  border-bottom: gold 5px solid;
+}
+
+.slider {
+  width: 100%;
+  margin: .7rem;
+  display: flex;
+  align-items: center;
+}
+
+.slider img {
+  margin: .5rem;
+  height: 21rem;
+  width: 18.9rem;
+}
+
+.ad1-box {
+  display: flex;
+  justify-content: center;
+}
+
+.ad1 {
+  margin: 1rem 0;
+  height: 100%;
+  width: 97%
+}
+
+.categories {
+  width: 75%;
+  height: 100px;
+  margin: 1rem auto 1.87rem auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  width: 10%;
+  height: 110%;
+}
+
+.box img {
+  width: 100%;
+  border-radius: .5rem;
+}
+
+.box p {
+  font-weight: bold;
+  text-align: center;
+  font-size: .6rem;
+}
+
+.pcat {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.box2 {
+  height: 100%;
+  width: 17%;
+}
+
+.box2 img {
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+}
+
+.cathead {
+  margin: 1rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+
+.dpd-box {
+  display: flex;
+  width: 101%;
+  justify-content: space-around;
+}
+
+.dpd-box div {
+  height: 100%;
+  width: 50%;
+}
+
+.dpd-box div img {
+  height: 100%;
+  width: 98%;
+}
+
+.bs-box {
+  margin: .5rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.bs-box div {
+  height: 100%;
+  width: 30%;
+}
+
+.bs-box div img {
+  height: 100%;
+  width: 100%;
+}
+
+.bargain-box {
+  margin: .5rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.bargain-box div {
+  height: 100%;
+  width: 24%;
+}
+
+.bargain-box div img {
+  width: 100%;
+  height: 100%;
+}
+
+.stoopid div {
+  height: 100%;
+  width: 49%;
+}
+
+.navop {
+  background-color: #BDBDBD;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navop div a {
+  font-size: .5rem;
+  text-decoration: none;
+  color: #101010;
+  padding: .5rem;
+}
+.catimg{
+  margin: 1rem 0 0 0;;
+}
+.catimg div{
+  height: 100%;
+  width: 30%;
+}
