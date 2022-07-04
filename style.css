@@ -12,9 +12,11 @@ a {
 
 .search-box {
   background-color: #eaeaea;
-  padding:.5em;
+  padding:.5em .5rem;
 }
-
+.search-box input{
+  margin-left: .5rem;
+}
 .search {
   background-color: #eaeaea;
   border: 0px
@@ -31,9 +33,7 @@ nav div{
   align-items: center;
 }
 .brand{
-  width: 5rem;
-}
-nav img {
+  width: 8rem;
 }
 
 /*HERO*/
@@ -61,6 +61,7 @@ nav img {
 }
 
 #active {
+  line-height: 1rem;
   color: #000000;
   border-bottom: gold 5px solid;
 }
@@ -214,4 +215,66 @@ nav img {
 .catimg div{
   height: 100%;
   width: 30%;
+}
+footer{
+  margin: 0 auto;
+  width: 100.8%;
+  padding: 2rem 1rem;
+  background-color: #101010;
+}
+.f1box{
+  display: flex;
+  justify-content:space-between;
+}
+.slinks a{
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  padding: .5rem;
+}
+.f1box div h3{
+  color: #FFFFFF;
+}
+footer h2{
+  margin: 1rem 0;
+  font-weight: bold;
+  color: #FFCB00;
+}
+.f2box{
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+footer h4{
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #ffcb00;
+  margin: 1rem 0;
+}
+footer p{
+  color: #CACACA;
+}
+.f3box{
+  display: flex;
+}
+.mr{
+  margin-right: 32%;
+}
+.f3box input{
+  border-radius: 5px 0 0 5px;
+  border: none;
+  background-color: #111111;
+  border-bottom: #ffcb00 solid 1px;
+  padding: .5rem 2rem;;
+}
+.f3box span{
+  padding: .51rem;
+  background-color: #ffcb00;
+}
+.f4box{
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  display: flex;
+}
+.mr2{
+  margin-right: 27.5%;
 }
